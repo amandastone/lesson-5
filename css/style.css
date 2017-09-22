@@ -81,7 +81,7 @@ background-color: #B2790F;
 
 #main-content-wrapper .image-content {
     text-align: center;
-    width: 50%;
+/*    width: 50%;*/
     margin-top: 50px;
 }
 
@@ -115,7 +115,7 @@ background-color: #B2790F;
 
 #main-content-wrapper article p {
     max-width: 300px;
-    margin-top: 0 auto;
+    margin: 0 auto;
 }
 
 #main-content-wrapper #skills {
@@ -144,11 +144,11 @@ background-color: #B2790F;
         list-style-type: none;
 }
 
-#latest-work li {
+#latest-work > li {
            padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
-    border-bottom: 1px black solid
+    border-bottom: 1px black solid;
 }
 
 #latest-work > li:before {
